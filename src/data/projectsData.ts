@@ -24,6 +24,12 @@ export const defaultProjects: Project[] = [
     link: "https://example.com",
     tags: ["Design", "UI"],
   },
+  {
+    title: "CodeCamp",
+    description: "Code Camp is an intensive program that teaches coding skills through hands-on practice and real-world projects.",
+    link: "https://www.google.com/",
+    tags: ["React", "CSS"],
+  }
 ];
 
 export const projectsData: Project[] = [

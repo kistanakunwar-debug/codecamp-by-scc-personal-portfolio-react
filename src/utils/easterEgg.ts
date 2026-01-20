@@ -50,7 +50,7 @@ type ConfettiParticle = {
   rotationSpeed: number;
 };
 
-const COLORS = ["#7c3aed", "#06b6d4", "#f97316", "#22c55e", "#e11d48"];
+const COLORS = ["#7c3aed", "#06b6d4", "#f97316", "#3dca71", "#ce2146"];
 
 export const fireConfetti = (canvas: HTMLCanvasElement, durationMs = 2000): void => {
   const context = canvas.getContext("2d");
